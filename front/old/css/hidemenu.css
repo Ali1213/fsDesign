@@ -1,0 +1,80 @@
+
+
+
+/* Core Styles */
+.top-bar { width: 15%;  height: 100%;position:absolute; float:left;}
+
+.top-bar .bar { background-color: transparent; width: 50px;  height:50px;text-align: center;  -webkit-user-select: none;   -moz-user-select: none;    -ms-user-select: none;    user-select: none;	  border:none;}
+
+
+.navbox-trigger{display: block;	width: 48px;height: 28px;}
+.top-bar .bar a:before, .top-bar .bar a:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	height: 3px;
+	width:30%;
+	margin-top:45%;
+	 margin-left:10%;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	
+	
+}
+.top-bar .bar a:before {
+	-moz-transform: translateY(-10px);
+	-o-transform: translateY(-10px);
+	-ms-transform: translateY(-10px);
+	-webkit-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+.top-bar .bar a:after {
+	-moz-transform: translateY(10px);
+	-o-transform: translateY(10px);
+	-ms-transform: translateY(10px);
+	-webkit-transform: translateY(10px);
+	transform: translateY(10px);
+}
+.navbox-open .bar a:before {
+	-moz-transform: rotate(90deg) rotate(45deg);
+	-o-transform: rotate(90deg) rotate(45deg);
+	-ms-transform: rotate(90deg) rotate(45deg);
+	-webkit-transform: rotate(90deg) rotate(45deg);
+	transform: rotate(90deg) rotate(45deg);
+}
+.navbox-open .bar a:after {
+	-moz-transform: rotate(90deg) rotate(-45deg);
+	-o-transform: rotate(90deg) rotate(-45deg);
+	-ms-transform: rotate(90deg) rotate(-45deg);
+	-webkit-transform: rotate(90deg) rotate(-45deg);
+	transform: rotate(90deg) rotate(-45deg);
+}
+#top-bar {width: 100%;  height: 100%; }
+#top-bar .navbox {  
+    background:rgba(0,0,0,0.8); 
+	 position: absolute; 
+	  left: 0%;
+    overflow: hidden;
+    padding-bottom: 3%;
+    position: absolute;
+    top: -110%;
+    width: 0;
+    z-index: 102;
+	}
+
+
+
+#top-bar.navbox-open .navbox { width:100%; top:60px;}
+ 
+ 
+ 
+.navbox ul { max-width: 640px; min-width: 320px;  margin: 0 auto;  height:auto !important;overflow:hidden; padding-bottom:1em;}
+#cake .navbox li{ width:98%;  margin: 0 auto;   }
+.navboxt{ width:100%; margin: 0 auto;  height:auto !important;overflow:hidden;}
+.navbox  h2{ font-size:1.2em; color:#FBE41C;margin-top:0.3em}
+.navbox span{color:#D6512E;}
+#cake  .navbox  a{ display:inline;font-size:1em; color:#FFF; margin-left:0.8em; width:30%; float:left; text-align:center;}
+
