@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+body{ margin:0; padding:0;font-family: "Microsoft Yahei", "Open Sans", sans-serif;}
+
+a{ text-decoration:none; color:#000; border: 0 none;}
+img{ border: 0 none;}
+li{ list-style-type:none;}
+
+
+.full{ width:100%;}
+.foot_1{width:100%;  height:auto !important;  position:fixed; bottom:0; z-index:99;  }
+.foot_1_cm{width:100%;  height:auto !important; margin-bottom: 0 }
+.foot_1_cm li{width:20%; height:100%;float:left; position:absolute; top:1rem;}
+.foot_1_cm .a2{ left:20%;}
+.foot_1_cm .a3{ left:40%;}
+.foot_1_cm .a4{ left:60%;}
+.foot_1_cm .a5{ left:80%;}
+#mian{color:#fff; font-weight:bold;position:absolute; left:91%; top:3px;width:25px; height:19px;background:url(img/renshu.gif) no-repeat; text-align:center; font-size:12px; }
+#zaixian{color:#fff; font-weight:bold;position:absolute; left:52%; top:3px;width:25px; height:19px;background:url(img/mian_dong.gif) no-repeat; text-align:center; font-size:12px; }
