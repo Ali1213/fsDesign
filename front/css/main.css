@@ -10,10 +10,20 @@ li{ list-style-type:none;}
 .header {
     width: 100%;
     height: 64px;
+    background-image: url(../img/header1.png);
+    color:#d8af53;
+    font-size: 24px;
 }
 
-.header .menu span{
+.header .menu{
+    display: inline-block;
     height: 100%;
+    width: 30%;
+}
+.header .menu span{
+    display: inline-block;
+    text-align: center;
+    line-height: 100%;
 }
 
 .full{ width:100%;}
