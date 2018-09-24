@@ -35,6 +35,7 @@ li{ list-style-type:none;}
     line-height: 100%;
     justify-content:center;
     align-items: center;
+    cursor: pointer;
 }
 .header .menu span{
     display: inline-block;
@@ -56,7 +57,57 @@ li{ list-style-type:none;}
 .header .title {
     display: inline-block;
     height:100%;
-    width: 50vw;
+    width: 55vw;
+    padding-left: 18vw; 
+    background: url('../img/logo2.png') no-repeat;
+    background-size: 20%;
+    background-position: 10% bottom;
+}
+
+.header .content {
+    display: inline-block;
+    font-size: 16px;
+    width: 78%;
+    font-weight: 700;
+    padding-left: 5px;
+    padding-top: 5px;
+    position: relative;
+}
+.header .content span {
+    display: inline-block;
+    width: 100%;
+}
+
+
+.header .content .title-main {
+    display: inline-block;
+    height: 70%;
+}
+
+.header .title .title-sub {
+    position: relative;
+    top: -4px;
+    font-size: 12px;
+    font-weight: 500;
+}
+/* 
+.header .title .title-main, .header .title .title-sub {
+    width: 78%;
+    font-size: 16px;
+}
+
+.header .title .title-main {
+    height:70%;
+} */
+
+
+.header .title .line {
+    width:1px;
+    height:80%;
+    margin-top:5%;
+    background-color:#fff;
+    overflow:hidden;
+    display: inline-block;
 }
 
 
