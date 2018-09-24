@@ -12,45 +12,60 @@ li{ list-style-type:none;}
     height: 17.5vw;
     background-image: url(../img/header1.png);
     color:#d8af53;
-    font-size: 24px;
+    font-size: 20px;
     background-size: 100%;
 }
 
 .header .header-bot {
-    width: 100%;
+    width: 100vw;
     height: 70%;
+    display: flex;
+    
 }
 
 .header .header-foot {
-    width: 100%;
-    height: 20%;
+    width: 100vw;
+    height: 30%;
 }
 
 .header .menu{
-    display: inline-block;
+    display: inline-flex;
     height: 100%;
-    width: 25%;
-    display: flex;
-    justify-content: center;/*实现水平居中*/
-    align-items:center; /*实现垂直居中*/
+    width: 25vw;
+    line-height: 100%;
+    justify-content:center;
+    align-items: center;
 }
 .header .menu span{
     display: inline-block;
-    text-align: center;
-    line-height: 100%;
+}
+
+.header .menu .menu-ico, .header .menu .menu-title{
+    margin:0;
+    padding: 0;
+}
+
+.header .menu .menu-ico {
+    
+}
+.header .menu .menu-title {
+    padding-left: 5px; 
+    font-weight: 800;
 }
 
 .header .title {
     display: inline-block;
     height:100%;
-    width: 50%;
+    width: 50vw;
 }
 
 
 .header .contact-us {
-    display: inline-block;
+    display: inline-flex;
     height:100%;
-    width: 25%;
+    width: 20vw;
+    justify-content:center;
+    align-items: center;
 }
 
 .full{ width:100%;}
