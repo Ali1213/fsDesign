@@ -1,0 +1,28 @@
+.class-sub {
+    font-family: verdana,arial,sans-serif;
+    font-size:24px;
+    color:#333333;
+    border: 1px solid #a9c6c9;
+    border-collapse: collapse;
+    text-align: center;
+    width:100%;
+} 
+
+.class-sub thead th {
+    background: #2e6da4;
+    color:#ffffff;
+    text-align: center;
+}
+
+.class-sub th {
+    
+    border: 1px solid #a9c6c9;
+    padding: 8px;
+}
+
+.class-sub .oddrowcolor{
+    background-color:#d4e3e5;
+}
+.class-sub .evenrowcolor{
+    background-color:#c3dde0;
+}
