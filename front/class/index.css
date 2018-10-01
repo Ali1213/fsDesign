@@ -81,7 +81,7 @@
 
 .container .detail{
     width:95vw;
-    padding:  10px 0 5px;
+    padding:  10px 5px 5px;
     background-color: #f6f1f1;
     font-size: 24px;
     text-indent:2em;
@@ -89,7 +89,7 @@
 }
 
 
-.container  .main:hover {
+.container  .main-hasshadow {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
     transform: translate3d(0, -4px, 0);
 }
