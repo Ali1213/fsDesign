@@ -7,6 +7,8 @@ a{ text-decoration:none; color:#000; border: 0 none;}
 img{ border: 0 none;}
 li{ list-style-type:none;}
 
+a:link, a:active, a:visited, a:hover{text-decoration:none;} 
+
 .header {
     width: 100vw;
     height: 17.5vw;
@@ -98,13 +100,19 @@ li{ list-style-type:none;}
     display: inline-block;
 }
 
-
-.header .contact-us {
+.header .contact-us a {
     display: inline-flex;
     height:100%;
     width: 20vw;
     justify-content:center;
     align-items: center;
+    color:#d8af53;
+}
+
+.header .contact-us {
+    display: inline-flex;
+    height:100%;
+    width: 20vw;
 }
 
 .header .menu-drop {

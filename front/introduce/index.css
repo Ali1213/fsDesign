@@ -1,4 +1,5 @@
-section.main {
+.main {
+    /* margin-bottom: 50px; */
     /* background: linear-gradient(135deg, rgb(17, 11, 66), rgb(73, 51, 77));
     background-attachment: fixed; */
     background: #348F50;  /* fallback for old browsers */
@@ -9,14 +10,15 @@ section.main {
     /* 顺便加个字体吧 */
     font-size: 15px;
     width: 100vw;
-    height:300px;
+    /* height:300px; */
     /* font-family: "Helvetica Neue", Helvetica, Microsoft Yahei; */
 }
 
 .main .panel {
     text-align: center;
     background-color: white;
-    width: 100vw;
+    width: 92vw;
+    margin-left:4vw;
     border-radius: 10px;  
     padding: 1px;
     transition: box-shadow .30s;
@@ -40,8 +42,18 @@ section.main {
     margin-top: -60px;
 }
 
-.main p {
+.main .introduce p {
     text-indent: 2em;
+    padding: 0 10px;
+}
+
+.main .introduce {
+    background-color: white;
+    width: 92vw;
+    margin-left:4vw;
+    border-radius: 10px;
+    padding: 10px 0;  
+
 }
 
 /*
