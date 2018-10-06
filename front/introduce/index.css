@@ -1,0 +1,89 @@
+section.main {
+    /* background: linear-gradient(135deg, rgb(17, 11, 66), rgb(73, 51, 77));
+    background-attachment: fixed; */
+    background: #348F50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #56B4D3, #348F50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #56B4D3, #348F50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    padding-top:80px;
+    /* 顺便加个字体吧 */
+    font-size: 15px;
+    width: 100vw;
+    height:300px;
+    /* font-family: "Helvetica Neue", Helvetica, Microsoft Yahei; */
+}
+
+.main .panel {
+    text-align: center;
+    background-color: white;
+    width: 100vw;
+    border-radius: 10px;  
+    padding: 1px;
+    transition: box-shadow .30s;
+} 
+
+ 
+.main .page-header {
+    padding: 20px 30px;
+    overflow: hidden;
+}
+
+.main .panel:hover{
+    box-shadow: #fff 5px 5px 25px;
+}
+
+
+.main .avatar img {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-top: -60px;
+}
+
+.main p {
+    text-indent: 2em;
+}
+
+/*
+
+
+
+.main h3 {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 15px 0 20px;
+}
+.main p.lead{
+    color: #333;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.main .btn {
+    color: white;
+    background: rgb(48, 35, 174);
+    font-size: 16px;
+    line-height: 38px;
+    height: 38px;
+    padding: 0 20px;
+    border-radius: 3px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .15s;
+}
+.main .btn:hover {
+    background-color: rgb(81, 67, 224);
+}
+
+
+.main .tags{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #999;
+}
+.main .tag{
+    margin: 0 15px;
+}
+.main .tag:before{
+    content: '#'
+}  */

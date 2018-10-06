@@ -1,7 +1,6 @@
 $(document).ready(function(){
-    $('.container .main span').click(function(){
-        console.log( $(this))
-        $(this).parents('.main').toggleClass('main-hasshadow').parents('.container').find('.detail').slideToggle(300)
+    $('.container .main').click(function(){
+        $(this).toggleClass('main-hasshadow').parents('.container').find('.detail').slideToggle(300)
     })
 
     $('.container .detail').click(function(){
