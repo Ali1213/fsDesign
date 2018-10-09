@@ -144,6 +144,9 @@ a:link, a:active, a:visited, a:hover{text-decoration:none;}
     text-align: center;
 }
 
+.body {
+    padding-bottom: 80px;
+}
 
 
 .full{ width:100%;}

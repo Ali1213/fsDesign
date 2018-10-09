@@ -1,4 +1,4 @@
-.main {
+.body {
     /* margin-bottom: 50px; */
     /* background: linear-gradient(135deg, rgb(17, 11, 66), rgb(73, 51, 77));
     background-attachment: fixed; */
@@ -14,7 +14,7 @@
     /* font-family: "Helvetica Neue", Helvetica, Microsoft Yahei; */
 }
 
-.main .panel {
+.body .panel {
     text-align: center;
     background-color: white;
     width: 92vw;
@@ -25,29 +25,29 @@
 } 
 
  
-.main .page-header {
+.body .page-header {
     padding: 20px 30px;
     overflow: hidden;
 }
 
-.main .panel:hover{
+.body .panel:hover{
     box-shadow: #fff 5px 5px 25px;
 }
 
 
-.main .avatar img {
+.body .avatar img {
     width: 120px;
     height: 120px;
     border-radius: 60px;
     margin-top: -60px;
 }
 
-.main .introduce p {
+.body .introduce p {
     text-indent: 2em;
     padding: 0 10px;
 }
 
-.main .introduce {
+.body .introduce {
     background-color: white;
     width: 92vw;
     margin-left:4vw;
@@ -60,18 +60,18 @@
 
 
 
-.main h3 {
+.body h3 {
     font-weight: bold;
     font-size: 16px;
     margin: 15px 0 20px;
 }
-.main p.lead{
+.body p.lead{
     color: #333;
     font-style: italic;
     margin-bottom: 30px;
 }
 
-.main .btn {
+.body .btn {
     color: white;
     background: rgb(48, 35, 174);
     font-size: 16px;
@@ -83,19 +83,19 @@
     text-decoration: none;
     transition: background .15s;
 }
-.main .btn:hover {
+.body .btn:hover {
     background-color: rgb(81, 67, 224);
 }
 
 
-.main .tags{
+.body .tags{
     margin-top: 50px;
     margin-bottom: 20px;
     color: #999;
 }
-.main .tag{
+.body .tag{
     margin: 0 15px;
 }
-.main .tag:before{
+.body .tag:before{
     content: '#'
 }  */
